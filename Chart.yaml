@@ -26,3 +26,4 @@ sources:
 - https://github.com/bitnami/bitnami-docker-nginx-ingress-controller
 - https://github.com/kubernetes/ingress-nginx
 version: 9.0.2
+
