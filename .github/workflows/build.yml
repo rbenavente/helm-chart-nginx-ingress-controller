@@ -12,7 +12,7 @@ jobs:
         id: checkov
         uses: bridgecrewio/checkov-action@master
         with:
-          directory: ./templates
+          directory: .
           soft_fail: true # optional: do not return an error code if there are failed checks
           framework: all # optional: run only on a specific infrastructure {cloudformation,terraform,kubernetes,all}
           quiet: true
